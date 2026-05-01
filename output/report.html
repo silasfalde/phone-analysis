@@ -1,0 +1,333 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Android Phone Buying Analysis</title>
+  <style>
+    :root {
+      --bg: #f4f7f8;
+      --card: #ffffff;
+      --text: #0f1f24;
+      --muted: #4b6169;
+      --accent: #0b7a75;
+      --accent-soft: #d8f1ef;
+      --line: #d3dee2;
+    }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+      background: radial-gradient(circle at 10% 10%, #dff5ef, var(--bg));
+      color: var(--text);
+      padding: 24px;
+    }
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      gap: 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 10px 30px rgba(8, 25, 33, 0.05);
+    }
+    h1, h2 {
+      margin: 0 0 10px;
+      letter-spacing: -0.02em;
+    }
+    p {
+      margin: 0;
+      color: var(--muted);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 14px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      padding: 8px;
+      vertical-align: top;
+    }
+    th {
+      background: var(--accent-soft);
+      color: var(--text);
+      font-weight: 700;
+      position: sticky;
+      top: 0;
+    }
+    .score {
+      font-weight: 700;
+      color: var(--accent);
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 10px;
+      width: fit-content;
+      background: #f9fcfd;
+      font-size: 12px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="card">
+      <h1>Android Phone Buying Analysis</h1>
+      <p>Ranking optimized for long-term LineageOS usage with emphasis on performance, battery, and value.</p>
+      <div class="meta">
+        <div class="chip">Weights: Geekbench 35%, Price 30%, Rating 20%, Battery 15%</div>
+        <div class="chip">BackMarket filters: Excellent condition, Black color</div>
+        <div class="chip">Scope: Android phones (2024-2026 pool)</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Top 10 Phones By Buying Score</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Buying Score</th>
+            <th>BackMarket Price (USD)</th>
+            <th>Geekbench Multi</th>
+            <th>Rating / 100</th>
+            <th>Battery mAh</th>
+            <th>Battery Runtime (hrs)</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td>1</td>
+            <td>OnePlus</td>
+            <td>OnePlus 13</td>
+            <td class="score">76.69</td>
+            <td>719</td>
+            <td>7950</td>
+            <td>94</td>
+            <td>5800</td>
+            <td>18.5</td>
+          </tr>
+          
+          <tr>
+            <td>2</td>
+            <td>OnePlus</td>
+            <td>OnePlus 12</td>
+            <td class="score">71.97</td>
+            <td>539</td>
+            <td>7300</td>
+            <td>91</td>
+            <td>5400</td>
+            <td>16.8</td>
+          </tr>
+          
+          <tr>
+            <td>3</td>
+            <td>ASUS</td>
+            <td>ROG Phone 8</td>
+            <td class="score">70.61</td>
+            <td>699</td>
+            <td>7650</td>
+            <td>92</td>
+            <td>5500</td>
+            <td>18.2</td>
+          </tr>
+          
+          <tr>
+            <td>4</td>
+            <td>Samsung</td>
+            <td>Galaxy S24+</td>
+            <td class="score">68.97</td>
+            <td>459</td>
+            <td>7100</td>
+            <td>90</td>
+            <td>4900</td>
+            <td>15.0</td>
+          </tr>
+          
+          <tr>
+            <td>5</td>
+            <td>Samsung</td>
+            <td>Galaxy S24 Ultra</td>
+            <td class="score">68.25</td>
+            <td>629</td>
+            <td>7400</td>
+            <td>92</td>
+            <td>5000</td>
+            <td>16.1</td>
+          </tr>
+          
+          <tr>
+            <td>6</td>
+            <td>Xiaomi</td>
+            <td>Xiaomi 15</td>
+            <td class="score">68.13</td>
+            <td>809</td>
+            <td>8000</td>
+            <td>93</td>
+            <td>5500</td>
+            <td>17.4</td>
+          </tr>
+          
+          <tr>
+            <td>7</td>
+            <td>Samsung</td>
+            <td>Galaxy S25 Ultra</td>
+            <td class="score">66.94</td>
+            <td>869</td>
+            <td>8100</td>
+            <td>94</td>
+            <td>5200</td>
+            <td>17.2</td>
+          </tr>
+          
+          <tr>
+            <td>8</td>
+            <td>Samsung</td>
+            <td>Galaxy S25</td>
+            <td class="score">66.03</td>
+            <td>679</td>
+            <td>7700</td>
+            <td>92</td>
+            <td>4200</td>
+            <td>15.8</td>
+          </tr>
+          
+          <tr>
+            <td>9</td>
+            <td>Samsung</td>
+            <td>Galaxy S24</td>
+            <td class="score">65.38</td>
+            <td>409</td>
+            <td>6900</td>
+            <td>89</td>
+            <td>4000</td>
+            <td>14.2</td>
+          </tr>
+          
+          <tr>
+            <td>10</td>
+            <td>ASUS</td>
+            <td>Zenfone 11 Ultra</td>
+            <td class="score">64.99</td>
+            <td>649</td>
+            <td>7400</td>
+            <td>90</td>
+            <td>5500</td>
+            <td>16.7</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Brand-Level Analysis</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Brand</th>
+            <th>Phone Count</th>
+            <th>Average Buying Score</th>
+            <th>Average Price</th>
+            <th>Average Geekbench Multi</th>
+            <th>Average Battery mAh</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td>OnePlus</td>
+            <td>2</td>
+            <td class="score">74.33</td>
+            <td>629.00</td>
+            <td>7625.00</td>
+            <td>5600.00</td>
+          </tr>
+          
+          <tr>
+            <td>ASUS</td>
+            <td>2</td>
+            <td class="score">67.80</td>
+            <td>674.00</td>
+            <td>7525.00</td>
+            <td>5500.00</td>
+          </tr>
+          
+          <tr>
+            <td>Samsung</td>
+            <td>5</td>
+            <td class="score">67.11</td>
+            <td>609.00</td>
+            <td>7440.00</td>
+            <td>4660.00</td>
+          </tr>
+          
+          <tr>
+            <td>Xiaomi</td>
+            <td>3</td>
+            <td class="score">63.70</td>
+            <td>729.00</td>
+            <td>7566.67</td>
+            <td>5136.67</td>
+          </tr>
+          
+          <tr>
+            <td>Google</td>
+            <td>5</td>
+            <td class="score">49.61</td>
+            <td>559.00</td>
+            <td>5400.00</td>
+            <td>4905.00</td>
+          </tr>
+          
+          <tr>
+            <td>Sony</td>
+            <td>1</td>
+            <td class="score">47.38</td>
+            <td>779.00</td>
+            <td>7000.00</td>
+            <td>5000.00</td>
+          </tr>
+          
+          <tr>
+            <td>Nothing</td>
+            <td>2</td>
+            <td class="score">46.26</td>
+            <td>429.00</td>
+            <td>4650.00</td>
+            <td>5050.00</td>
+          </tr>
+          
+          <tr>
+            <td>Motorola</td>
+            <td>2</td>
+            <td class="score">43.03</td>
+            <td>594.00</td>
+            <td>6300.00</td>
+            <td>4250.00</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </section>
+  </div>
+</body>
+</html>
+        

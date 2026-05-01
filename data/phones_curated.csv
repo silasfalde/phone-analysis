@@ -1,0 +1,23 @@
+brand,model,release_year,os_family,battery_mah
+Samsung,Galaxy S24,2024,Android,4000
+Samsung,Galaxy S24+,2024,Android,4900
+Samsung,Galaxy S24 Ultra,2024,Android,5000
+Samsung,Galaxy S25,2025,Android,4200
+Samsung,Galaxy S25 Ultra,2025,Android,5200
+Google,Pixel 8,2024,Android,4575
+Google,Pixel 8 Pro,2024,Android,5050
+Google,Pixel 9,2025,Android,4700
+Google,Pixel 9 Pro,2025,Android,5000
+Google,Pixel 9 Pro XL,2025,Android,5200
+OnePlus,OnePlus 12,2024,Android,5400
+OnePlus,OnePlus 13,2025,Android,5800
+Xiaomi,Xiaomi 14,2024,Android,4610
+Xiaomi,Xiaomi 14 Ultra,2024,Android,5300
+Xiaomi,Xiaomi 15,2025,Android,5500
+Nothing,Phone (2a),2024,Android,5000
+Nothing,Phone (3),2025,Android,5100
+Motorola,Edge 50 Ultra,2024,Android,4500
+Motorola,Razr 50 Ultra,2024,Android,4000
+Sony,Xperia 1 VI,2024,Android,5000
+ASUS,ROG Phone 8,2024,Android,5500
+ASUS,Zenfone 11 Ultra,2024,Android,5500
